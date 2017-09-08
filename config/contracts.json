@@ -1,0 +1,11 @@
+{
+  "default": {
+    "gas": "auto",
+    "contracts": {
+      "LocationRegistry": {
+        "gas": 3000000,
+        "args": []
+      }
+    }
+  }
+}

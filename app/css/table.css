@@ -1,0 +1,38 @@
+td {
+	width: 10px;
+	height: 10px;
+	border: 1px solid black;
+}
+
+td.point {
+	border: 1px solid red;
+}
+
+#main {
+	z-index: 1;
+	position: absolute;
+	bottom: 10;
+	left: 10;
+}
+#map {
+	z-index: 0;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+}
+
+#spinner {
+	position: fixed;
+	z-index: 100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0, .2);
+	background-image: url(../images/spinner.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+	display: none;
+}
